@@ -12,6 +12,8 @@ import Logo from '../../assets/logo.png'
 const Navbar = () => {
     const [IsOpen, setIsOpen] = useState(false);
 
+    const CloseMenuOnClick = () => setIsOpen(false);
+
     const IconSize = '20';
     const IconColor = '#DE0303';
 
@@ -52,9 +54,9 @@ const Navbar = () => {
 
                 <NavMenu>
                     <ul>
-                        <li><AiOutlineHome size={IconSize} color={IconColor} /><Link to="/">Home</Link></li>
-                        <li><GiScrollQuill size={IconSize} color={IconColor} /><Link to="/ficha">Ficha</Link></li>
-                        <li><GiRevolver size={IconSize} color={IconColor} /><Link to="/combate">Combate</Link></li>
+                        <li><AiOutlineHome size={IconSize} color={IconColor} /><Link onClick={CloseMenuOnClick} to="/">Home</Link></li>
+                        <li><GiScrollQuill size={IconSize} color={IconColor} /><Link onClick={CloseMenuOnClick} to="/ficha">Ficha</Link></li>
+                        <li><GiRevolver size={IconSize} color={IconColor} /><Link onClick={CloseMenuOnClick} to="/combate">Combate</Link></li>
                     </ul>
                 </NavMenu>
 
@@ -65,9 +67,9 @@ const Navbar = () => {
                         <div className="menu-items">
                             <img src={Logo} alt="sidebar_logo" />
                             <ul>
-                                <li><AiOutlineHome size={IconSize} color={IconColor} /><Link to="/">Home</Link></li>
-                                <li><GiScrollQuill size={IconSize} color={IconColor} /><Link to="/ficha">Ficha</Link></li>
-                                <li><GiRevolver size={IconSize} color={IconColor} /><Link to="/combate">Combate</Link></li>
+                                <li><AiOutlineHome size={IconSize} color={IconColor} /><Link onClick={CloseMenuOnClick} to="/">Home</Link></li>
+                                <li><GiScrollQuill size={IconSize} color={IconColor} /><Link onClick={CloseMenuOnClick} to="/ficha">Ficha</Link></li>
+                                <li><GiRevolver size={IconSize} color={IconColor} /><Link onClick={CloseMenuOnClick} to="/combate">Combate</Link></li>
                             </ul>
                         </div>
                     </>
