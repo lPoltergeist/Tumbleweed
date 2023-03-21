@@ -1,15 +1,13 @@
 import styled from 'styled-components'
 
 export const Nav = styled.nav`
-  height: 80px;
+height: 80px;
 width: 100%;
 
 background-color: rgba(33,33,33, 0.95);
 
 display: flex;
 align-items: center;
-
-
 
 `
 export const NavMenu = styled.div`

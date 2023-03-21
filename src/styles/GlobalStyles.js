@@ -20,6 +20,10 @@ body{
     background-attachment: fixed;
 }
 
+img {
+  border-radius: 10px;
+}
+
 li {
     list-style: none;
     font-family: "Teko", sans-serif
@@ -55,4 +59,24 @@ b {
     color: #E81F1C;
 }
 
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f3ecc5;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #E81F1C;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
 `

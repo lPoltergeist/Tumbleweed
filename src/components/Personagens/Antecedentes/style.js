@@ -89,6 +89,13 @@ padding: 1rem;
 
 min-height: 15rem;
 
+
+:hover {
+    scale: 1.1;
+    background-color: #212121;
+    z-index: 999;
+}
+
 p {
   color: red;
   font-family: "Teko", sans-serif;
@@ -106,4 +113,6 @@ export const AntecedentesBox = styled.div`
   padding: 1.5rem;
   border: 5px solid red;
   border-radius: 20px;
+
+
 `

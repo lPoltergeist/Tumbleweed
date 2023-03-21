@@ -11,7 +11,7 @@ margin: 3rem 0;
 
 export const Container = styled.main`
 
-background-color: rgba(33,33,33, 0.95);
+background-color: rgba(33,33,33, 0.9);
 border-radius: 10px;
 
 margin: 2rem 0.5rem; 

@@ -19,7 +19,7 @@ const Personagens = () => {
 
         <h2>É mais simples de criar seu personagem do que domar uma mula velha na fronteira com o México.</h2>
 
-        <p>Antes de tudo, escolha o nome do seu personagem, pois é como ele será conhecido em Deadwood.</p>
+        <p>Antes de tudo, escolha o nome do seu personagem, pois é como ele será conhecido.</p>
         <p>Esta será sua condição inicial: </p>
 
         <Instrucoes>

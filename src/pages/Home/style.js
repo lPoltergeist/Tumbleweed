@@ -10,7 +10,7 @@ border-radius: 10px;
 
 }
 
-background-color: rgba(33,33,33, 0.95);
+background-color: rgba(33,33,33, 0.9);
 `
 
 export const Section = styled.section`
@@ -21,10 +21,6 @@ flex-direction: column;
 align-items: center;
 
 text-indent: 1rem;
-
-
-
-
 
 @media (min-width: 1000px) {
     margin: 0 5rem;
@@ -51,6 +47,7 @@ display: flex;
 flex-direction: column;
 align-items: center;
 
+
 @media (max-width: 999px) {
 
     :nth-child(3){
@@ -74,6 +71,7 @@ img{
     height: auto;
     width: 90%;
     padding: 1rem 0;
+    border-radius: 10px;
 }
 
 
@@ -102,6 +100,7 @@ img{
     height: auto;
     width: 50%;
     padding: 1rem 0;
+    border-radius: 10px;
 }
 }
 `
